@@ -2,12 +2,7 @@
   "name": "@himenon/kubernetes-typescript-openapi",
   "version": "2.1.0",
   "description": "Implementation of TypeScript generated from Kubernetes OpenAPI",
-  "keywords": [
-    "Kubernetes",
-    "k8s",
-    "OpenAPI",
-    "Swagger"
-  ],
+  "keywords": ["Kubernetes", "k8s", "OpenAPI", "Swagger"],
   "homepage": "https://github.com/Himenon/kubernetes-typescript-openapi#readme",
   "bugs": {
     "url": "https://github.com/Himenon/kubernetes-typescript-openapi/issues"
@@ -30,11 +25,7 @@
   "directories": {
     "lib": "lib"
   },
-  "files": [
-    "lib",
-    "package.json",
-    "README.md"
-  ],
+  "files": ["lib", "package.json", "README.md"],
   "scripts": {
     "build": "tsup",
     "build:all": "run-s fetch:schemas generate:code",
@@ -54,9 +45,7 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,json,yml,yaml,html,md,ts,tsx}": [
-      "biome format --no-errors-on-unmatched --write"
-    ]
+    "*.{js,jsx,json,yml,yaml,html,md,ts,tsx}": ["biome format --no-errors-on-unmatched --write"]
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
