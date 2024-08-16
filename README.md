@@ -11,7 +11,7 @@ yarn add @himenon/openai-typescript-openapi
 ## Usage
 
 ```ts
-import * as fs from "fs";
+import * as fs from "node:fs";
 import { Client } from "@himenon/openai-typescript-openapi/dist/2.0.0";
 
 const client = new Client(
