@@ -1,15 +1,15 @@
 {
-  "name": "@himenon/kubernetes-typescript-openapi",
-  "version": "2.1.0",
-  "description": "Implementation of TypeScript generated from Kubernetes OpenAPI",
-  "keywords": ["Kubernetes", "k8s", "OpenAPI", "Swagger"],
-  "homepage": "https://github.com/Himenon/kubernetes-typescript-openapi#readme",
+  "name": "@himenon/openai-typescript-openapi",
+  "version": "1.0.0",
+  "description": "Implementation of TypeScript generated from openai OpenAPI",
+  "keywords": ["openai", "k8s", "OpenAPI", "Swagger"],
+  "homepage": "https://github.com/Himenon/openai-typescript-openapi#readme",
   "bugs": {
-    "url": "https://github.com/Himenon/kubernetes-typescript-openapi/issues"
+    "url": "https://github.com/Himenon/openai-typescript-openapi/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Himenon/kubernetes-typescript-openapi.git"
+    "url": "git@github.com:Himenon/openai-typescript-openapi.git"
   },
   "license": "MIT",
   "author": {
