@@ -12,7 +12,6 @@ yarn add @himenon/openai-typescript-openapi
 
 ```ts
 import * as fs from "fs";
-import * as yaml from "js-yaml"; // yarn add js-yaml @types/js-yaml
 import type { Schemas } from "@himenon/openai-typescript-openapi/dist/2.0.0";
 ```
 
