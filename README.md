@@ -12,7 +12,16 @@ yarn add @himenon/openai-typescript-openapi
 
 ```ts
 import * as fs from "fs";
-import type { Schemas } from "@himenon/openai-typescript-openapi/dist/2.0.0";
+import { Client } from "@himenon/openai-typescript-openapi/dist/2.0.0";
+
+const client = new Client(
+  {
+    request: {}, // your impl
+  },
+  "your/endpoint"
+);
+
+client.listModels();
 ```
 
 ## Build
